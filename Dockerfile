@@ -5,6 +5,7 @@ USER root
 RUN apt-get -y install git
 RUN apt-get -y install gitg
 RUN apt-get -y install rxvt 
+RUN apt-get -y install vim
 
 
 USER eiffel
